@@ -1,0 +1,66 @@
+/* Estilos generales */
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    color: brown;
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Estilos para el contenido principal */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+/* Estilos de la tabla */
+table {
+    border-collapse: collapse;
+    width: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Estilos para las celdas de la tabla */
+th {
+    background-color: #008080; /* verde azulado */
+    color: white;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #555;
+    padding: 10px;
+}
+
+/* Colores alternados para las filas de la tabla */
+tbody tr:nth-child(even) {
+    background-color:chocolate; /* gris claro */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: aqua; /* blanco */
+}
+
+
+
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+
+    color: tomato;
+    border-image-source: ;
+}
